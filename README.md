@@ -1,23 +1,23 @@
-# 🐾 Automatic Pet Feeder System
+# Automatic Pet Feeder System
 
-## 📌 Overview
+## Overview
 
 The **Automatic Pet Feeder System** is an Arduino-based project designed to automate pet feeding using real-time monitoring and sensor-based decision making. It ensures pets are fed on time even when the owner is unavailable.
 
----
 
-## 🚀 Features
 
-* ⏰ **Scheduled Feeding** using RTC (DS3231)
-* 🐶 **Pet Detection** using IR Sensor
-* 🍽️ **Food Level Monitoring** using Ultrasonic Sensor
-* 🌙 **Automatic Lighting** using LDR
-* 🔄 **Servo-controlled Feeding Mechanism**
-* 📟 **LCD Display** for real-time status
+## Features
 
----
+*  **Scheduled Feeding** using RTC (DS3231)
+*  **Pet Detection** using IR Sensor
+*  **Food Level Monitoring** using Ultrasonic Sensor
+*  **Automatic Lighting** using LDR
+*  **Servo-controlled Feeding Mechanism**
+*  **LCD Display** for real-time status
 
-## 🧠 Working Principle
+
+
+## Working Principle
 
 1. The RTC module keeps track of real time.
 2. At the scheduled feeding time:
@@ -33,9 +33,9 @@ The **Automatic Pet Feeder System** is an Arduino-based project designed to auto
    * Food level (%)
    * Pet presence
 
----
 
-## 🧰 Components Used
+
+## Components Used
 
 * Arduino UNO
 * IR Sensor (Pet Detection)
@@ -48,9 +48,9 @@ The **Automatic Pet Feeder System** is an Arduino-based project designed to auto
 * Power Bank / External 5V Supply
 * Breadboard & Jumper Wires
 
----
 
-## 🔌 Circuit Connections
+
+## Circuit Connections
 
 | Component       | Arduino Pin |
 | --------------- | ----------- |
@@ -65,30 +65,18 @@ The **Automatic Pet Feeder System** is an Arduino-based project designed to auto
 | RTC (SDA)       | A4          |
 | RTC (SCL)       | A5          |
 
-⚠️ **Note:** Servo motor should be powered using an external 5V source (power bank). Ensure common ground.
+ **Note:** Servo motor should be powered using an external 5V source (power bank). Ensure common ground.
 
----
 
-## 🖥️ Output Display
+
+## Output Display
 
 * `T: HH:MM` → Current Time
 * `F: XX%` → Food Level
 * `P:Y / P:N` → Pet Presence
 
----
 
-## 📂 Project Structure
-
-```
-📁 Automatic-Pet-Feeder
- ┣ 📜 main.ino
- ┣ 📜 README.md
- ┗ 📷 circuit_diagram.png
-```
-
----
-
-## ▶️ How to Run
+## How to Run
 
 1. Connect all components as per circuit diagram.
 2. Upload the code to Arduino using Arduino IDE.
@@ -101,39 +89,19 @@ The **Automatic Pet Feeder System** is an Arduino-based project designed to auto
 4. Power the system.
 5. Observe automatic feeding behavior.
 
----
 
-## 🔧 Future Improvements
+
+## Future Improvements
 
 * Mobile App Integration (IoT)
 * Multiple Feeding Schedules
 * Weight-based food measurement
 * Camera-based pet recognition
 
----
 
-## 🧠 Learning Outcomes
 
-* Embedded systems integration
-* Sensor interfacing
-* Real-time processing
-* Automation logic design
-
----
-
-## 🎯 Conclusion
-
+## Conclusion
 This project demonstrates an efficient and reliable solution for automated pet feeding using multiple sensors and real-time decision-making.
 
----
 
-## 👨‍💻 Author
 
-Harish
-(AIML Engineering Student)
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
